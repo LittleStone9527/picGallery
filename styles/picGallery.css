@@ -1,0 +1,40 @@
+body{
+    position: relative;
+    background-color: #ccc;
+    color: #333;
+    margin: 1em 10%;
+}
+h1{
+    background-color: transparent;
+}
+a{
+    color: tomato;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    float: left;
+    padding: 1em;
+    list-style: none;
+}
+
+img{
+    width: 580px;
+    height: 406px;
+    display: block;
+    clear: both;
+}
+#imgBox1{
+    border: 1px solid tomato;
+    position: absolute;
+    left: 15px;
+    top: 120px;
+}
+/*#imgBox1 img{
+	width: 580px;
+	height: 406px;
+}*/
